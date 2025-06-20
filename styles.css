@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-x: none;
+    background: linear-gradient(90deg, rgba(234, 227, 217, 1.000) 0.000%, rgba(237, 227, 217, 1.000) 16.667%, rgba(233, 220, 209, 1.000) 33.333%, rgba(223, 207, 196, 1.000) 50.000%, rgba(208, 191, 180, 1.000) 66.667%, rgba(192, 174, 163, 1.000) 83.333%, rgba(177, 160, 149, 1.000) 100.000%)
+}
+
+.navBar{
+    width: 100%;
+    height: 60px;
+    /* https://grabient.com/HQVgTAjANMCcAcsYBZZLiA7DTA2bwkAzDAAwQgwSbJViW7DymkwjK5TLC4dA/?style=linearGradient&mod=global&tags=%5B%22Cozy%22%5D */
+
+    background: linear-gradient(135deg, rgb(219, 80, 108) 0.000%, rgba(234, 111, 95, 0.892) 25.000%, rgb(216, 132, 124) 50.000%, rgba(224, 165, 124, 1.000) 75.000%, rgb(205, 110, 72) 100.000%)
+    /* display: flex; */
+
+}
+
+#logotext{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+
+a{
+    margin-top: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#navitems{
+    display: flex;
+    gap: 30px;
+}
+
+#navList{
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 13px;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBox{
+    width: 100%;
+    background: linear-gradient(135deg, rgb(219, 80, 108) 0.000%, rgba(234, 111, 95, 0.892) 25.000%, rgb(216, 132, 124) 50.000%, rgba(224, 165, 124, 1.000) 75.000%, rgb(205, 110, 72) 100.000%);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerBox p{
+    color: white;
+    font-size: 22px;
+}
+
+.contentBox{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 213, 213);
+    box-shadow: 0px 0px 20px black;
+
+}
+
+.item{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+}
+#heading{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+
+.rightbox img{
+    margin-top: 60px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px black;
+
+}
+.rightbox img:hover{
+    transform: scale(1.05);
+}
+
+#steps{
+    font-style: italic;
+    width: 90%;
+}
+
+#subHeading{
+    text-decoration: underline;
+}
